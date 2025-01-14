@@ -33,7 +33,7 @@ public class SetUp {
         options.setDeviceName(propertyReader.getProperty("device")) ;
       // to save the session on the device
         // options.noReset();
-        options.setApp("D:\\AppiumDemo\\src\\test\\resources\\app-release.apk");
+        options.setApp("D:\\Appium_Demo\\src\\test\\resources\\app-release.apk");
         options.setCapability("autoGrantPermissions", true);
 
 
